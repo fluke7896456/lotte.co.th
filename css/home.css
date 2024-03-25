@@ -1,0 +1,733 @@
+body,
+html {
+    background-color: #f00;
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    background-color: rgb( 55, 190, 255);
+    background: url(../img/intro/bg-afternoon-20160219.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media (max-width: 1200px) {
+    .masthead {
+        display: none;
+    }
+}
+
+@media (max-height: 600px) {
+    .masthead {
+        display: none;
+    }
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .mobile {
+        display: inline;
+        top: auto;
+    }
+    .mobile>.col-lg-12 {
+        padding: 50px;
+    }
+}
+
+@media (max-height: 600px) {
+    .mobile {
+        display: inline;
+        top: auto;
+    }
+    .mobile>.col-lg-12 {
+        padding: 50px;
+    }
+}
+
+
+/*-----------------Brand----------------*/
+
+.stickgum {
+    z-index: 2;
+    width: 20%;
+    height: 24%;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.stickgumman {
+    z-index: 2;
+    width: 4%;
+    height: 9%;
+    position: absolute;
+    left: 12%;
+    animation: stickgumman 1s infinite;
+}
+
+@keyframes stickgumman {
+    0% {
+        top: 48%;
+    }
+    100% {
+        top: 49%;
+    }
+}
+
+.xylitol {
+    z-index: 2;
+    width: 14%;
+    height: 39%;
+    position: absolute;
+    top: 36%;
+    left: 23%;
+}
+
+.xylitolcloud {
+    z-index: 3;
+    width: 6%;
+    height: 8%;
+    position: absolute;
+    top: 23%;
+    left: 31.5%;
+}
+
+.dropblue1 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 33%;
+    animation: dropblue1 1s infinite;
+}
+
+@keyframes dropblue1 {
+    0% {
+        top: 32%;
+    }
+    100% {
+        top: 34%;
+        opacity: 0;
+    }
+}
+
+.dropblue2 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 34%;
+    animation: dropblue2 2s infinite;
+}
+
+@keyframes dropblue2 {
+    0% {
+        top: 32%;
+    }
+    100% {
+        top: 34%;
+        opacity: 0;
+    }
+}
+
+.dropblue3 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 35%;
+    animation: dropblue3 1s infinite;
+}
+
+@keyframes dropblue3 {
+    0% {
+        top: 32%;
+    }
+    100% {
+        top: 34%;
+        opacity: 0;
+    }
+}
+
+.dropblue4 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 36%;
+    animation: dropblue4 2s infinite;
+}
+
+@keyframes dropblue4 {
+    0% {
+        top: 32%;
+    }
+    100% {
+        top: 34%;
+        opacity: 0;
+    }
+}
+
+.koala {
+    z-index: 4;
+    width: 33%;
+    height: 51%;
+    position: absolute;
+    top: 36%;
+    left: 29%;
+}
+
+.bubble {
+    z-index: 4;
+    width: 19%;
+    height: 19%;
+    position: absolute;
+    left: 36%;
+    animation: bubble 2s infinite;
+}
+
+@keyframes bubble {
+    0% {
+        top: 36%;
+    }
+    100% {
+        top: 28%;
+        opacity: 0;
+    }
+}
+
+.koalacloud {
+    z-index: 4;
+    width: 6%;
+    height: 11%;
+    position: absolute;
+    top: 32%;
+    left: 53%;
+}
+
+.dropbrown1 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 54%;
+    animation: dropbrown1 1s infinite;
+}
+
+@keyframes dropbrown1 {
+    0% {
+        top: 44%;
+    }
+    100% {
+        top: 46%;
+        opacity: 0;
+    }
+}
+
+.dropbrown2 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 55%;
+    animation: dropbrown2 2s infinite;
+}
+
+@keyframes dropbrown2 {
+    0% {
+        top: 44%;
+    }
+    100% {
+        top: 46%;
+        opacity: 0;
+    }
+}
+
+.dropbrown3 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 56%;
+    animation: dropbrown3 1s infinite;
+}
+
+@keyframes dropbrown3 {
+    0% {
+        top: 44%;
+    }
+    100% {
+        top: 46%;
+        opacity: 0;
+    }
+}
+
+.dropbrown4 {
+    z-index: 4;
+    width: 0.3%;
+    height: 1%;
+    position: absolute;
+    left: 57%;
+    animation: dropbrown4 2s infinite;
+}
+
+@keyframes dropbrown4 {
+    0% {
+        top: 44%;
+    }
+    100% {
+        top: 46%;
+        opacity: 0;
+    }
+}
+
+.toppo {
+    z-index: 1;
+    width: 24%;
+    height: 45%;
+    position: absolute;
+    top: 40%;
+    left: 62%;
+}
+
+.melody01 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody01 3s infinite;
+}
+
+@keyframes melody01 {
+    0% {
+        top: 59%;
+        left: 74%;
+    }
+    100% {
+        top: 56%;
+        left: 76%;
+        opacity: 0;
+    }
+}
+
+.melody02 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody02 2s infinite;
+}
+
+@keyframes melody02 {
+    0% {
+        top: 50%;
+        left: 73%;
+    }
+    100% {
+        top: 45%;
+        left: 74%;
+        opacity: 0;
+    }
+}
+
+.melody03 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody03 3s infinite;
+}
+
+@keyframes melody03 {
+    0% {
+        top: 50%;
+        left: 73%;
+    }
+    100% {
+        top: 50%;
+        left: 73%;
+        opacity: 0;
+    }
+}
+
+.melody04 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody04 2s infinite;
+}
+
+@keyframes melody04 {
+    0% {
+        top: 50%;
+        left: 73%;
+    }
+    100% {
+        top: 50%;
+        left: 73%;
+        opacity: 0;
+    }
+}
+
+.melody05 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody05 3s infinite;
+}
+
+@keyframes melody05 {
+    0% {
+        top: 50%;
+        left: 73%;
+    }
+    100% {
+        top: 50%;
+        left: 73%;
+        opacity: 0;
+    }
+}
+
+.melody06 {
+    z-index: 4;
+    width: .5%;
+    height: 1%;
+    position: absolute;
+    animation: melody06 2s infinite;
+}
+
+@keyframes melody06 {
+    0% {
+        top: 50%;
+        left: 40%;
+    }
+    100% {
+        top: 47%;
+        left: 45%;
+        opacity: 0;
+    }
+}
+
+.fusen {
+    z-index: 5;
+    width: 8%;
+    height: 23%;
+    position: absolute;
+    left: 75%;
+    animation: fusen 2s infinite;
+}
+
+@keyframes fusen {
+    0% {
+        top: 36%;
+    }
+    100% {
+        top: 35%;
+    }
+}
+
+.fusenballoon {
+    z-index: 5;
+    width: 8%;
+    height: 21%;
+    position: absolute;
+    left: 83%;
+    animation: fusenballoon 2s infinite;
+}
+
+@keyframes fusenballoon {
+    0% {
+        top: 35%;
+    }
+    100% {
+        top: 36%;
+    }
+}
+
+.cloud1 {
+    z-index: 2;
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 10%;
+    animation: cloud1 240s infinite;
+}
+
+@keyframes cloud1 {
+    0% {
+        left: 50%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+.cloud2 {
+    z-index: 2;
+    width: 6%;
+    height: 6%;
+    position: absolute;
+    top: 30%;
+    animation: cloud2 260s infinite;
+}
+
+@keyframes cloud2 {
+    0% {
+        left: 78%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+.cloud3 {
+    z-index: 2;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 15%;
+    animation: cloud3 290s infinite;
+}
+
+@keyframes cloud3 {
+    0% {
+        left: 60%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+.cloud4 {
+    z-index: 2;
+    width: 9%;
+    height: 9%;
+    position: absolute;
+    top: 10%;
+    animation: cloud4 320s infinite;
+}
+
+@keyframes cloud4 {
+    0% {
+        left: 89%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+.cloud5 {
+    z-index: 2;
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    animation: cloud5 360s infinite;
+}
+
+@keyframes cloud5 {
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+.airplane {
+    z-index: 5;
+    width: 14%;
+    height: 14%;
+    position: absolute;
+    top: 15%;
+    animation: airplane 15s infinite;
+}
+
+@keyframes airplane {
+    0% {
+        left: 85%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+
+/*-----------------sea----------------*/
+
+.stickgumswim {
+    z-index: 19;
+    width: 10%;
+    height: 12%;
+    position: absolute;
+    left: 10%;
+    animation: stickgumswim 2s infinite;
+}
+
+@keyframes stickgumswim {
+    0% {
+        top: 74%;
+    }
+    100% {
+        top: 75%;
+    }
+}
+
+.koalaswim01 {
+    z-index: 19;
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    left: 24%;
+    animation: koalaswim01 3s infinite;
+}
+
+@keyframes koalaswim01 {
+    0% {
+        top: 78%;
+    }
+    100% {
+        top: 79%;
+    }
+}
+
+.koalaswim02 {
+    z-index: 19;
+    width: 10%;
+    height: 14%;
+    position: absolute;
+    left: 32%;
+    animation: koalaswim02 2s infinite;
+}
+
+@keyframes koalaswim02 {
+    0% {
+        top: 75%;
+    }
+    100% {
+        top: 74%;
+    }
+}
+
+.koalaswim03 {
+    z-index: 19;
+    width: 14%;
+    height: 14%;
+    position: absolute;
+    left: 41%;
+    animation: koalaswim03 3s infinite;
+}
+
+@keyframes koalaswim03 {
+    0% {
+        top: 78%;
+    }
+    100% {
+        top: 79%;
+    }
+}
+
+.koalaswim04 {
+    z-index: 19;
+    width: 3%;
+    height: 6%;
+    position: absolute;
+    left: 59%;
+    animation: koalaswim04 3s infinite;
+}
+
+@keyframes koalaswim04 {
+    0% {
+        top: 79%;
+    }
+    100% {
+        top: 78%;
+    }
+}
+
+.topposwim01 {
+    z-index: 19;
+    width: 11%;
+    height: 14%;
+    position: absolute;
+    left: 63%;
+    animation: topposwim01 3s infinite;
+}
+
+@keyframes topposwim01 {
+    0% {
+        top: 77%;
+    }
+    100% {
+        top: 78%;
+    }
+}
+
+.topposwim02 {
+    z-index: 14;
+    width: 11%;
+    height: 11%;
+    position: absolute;
+    left: 79%;
+    animation: topposwim02 3s infinite;
+}
+
+@keyframes topposwim02 {
+    0% {
+        top: 75%;
+    }
+    100% {
+        top: 74%;
+    }
+}
+
+.bearboard {
+    z-index: 24;
+    width: 5%;
+    height: 12%;
+    position: absolute;
+    top: 85%;
+    animation: bearboard 15s infinite;
+}
+
+@keyframes bearboard {
+    0% {
+        left: 85%;
+    }
+    100% {
+        left: 1%;
+    }
+}
+
+
+/*-----------------sea----------------*/
+
+.btn-danger {
+    width: 100px;
+    height: 45px;
+}
+
+
+/*---------------footer--------------*/
+
+footer {
+    background-color: #f00;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
